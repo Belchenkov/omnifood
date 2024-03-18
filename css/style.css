@@ -84,6 +84,13 @@
     padding: 0 3.2rem;
 }
 
+.heading-primary,
+.heading-secondary {
+    font-weight: 700;
+    color: #333;
+    letter-spacing: -0.5px;
+}
+
 .heading-primary {
     font-size: 5.2rem;
     font-weight: 700;
@@ -91,6 +98,22 @@
     color: #333;
     letter-spacing: -.5px;
     margin-bottom: 3.2rem;
+}
+
+.heading-secondary {
+    font-size: 4.4rem;
+    line-height: 1.2;
+    margin-bottom: 9.6rem;
+}
+
+.subheading {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #cf711f;
+    text-transform: uppercase;
+    margin-bottom: 1.6rem;
+    letter-spacing: .75rem;
 }
 
 .hero-description {
@@ -178,5 +201,8 @@
 
 .section-how {
     padding: 9.6rem 0;
-    background: orangered;
+}
+
+.step-img {
+    width: 50%;
 }
